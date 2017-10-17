@@ -161,7 +161,7 @@ When passing a RegExp as the `url`, the XHR's url will be tested against the reg
 
 ```javascript
 cy.server()
-cy.route(/users\/\d+/, {id: 1, name: 'Phoebe'})
+cy.route(/\/users\/\d+/, {id: 1, name: 'Phoebe'})
 ```
 
 ```javascript
